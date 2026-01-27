@@ -15,23 +15,23 @@
   font-weight: bold;
 }
 
-#waybar {
-    padding-top: 0px;
-    padding-bottom: 0px;
-}
+/* #waybar { */
+/*     padding-top: 0px; */
+/*     padding-bottom: 0px; */
+/* } */
 
 #workspaces button.active {
-    color: #C93F16;
+    color: #BD4924; /* #C93F16 */
     background-color: rgba(-1,0,0,0.0);
 }
 
 #workspaces button.active label {
-    color: #C93F16; /* More specific selector for text */
+    color: #BD4924; /* More specific selector for text */
     font-weight: bold;
 }
 
 #workspaces button.urgent {
-    color: #C93F16;
+    color: #BD4924;
     background-color: rgba(-1,0,0,0.0);
 }
 

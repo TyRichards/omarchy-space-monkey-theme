@@ -1,9 +1,9 @@
-accent = "#f38d70"
-cursor = "#c3b7b8"
+accent = "#BD4924" #DF782D
+cursor = "#e7aa5a"
 foreground = "#e7aa5a"
 background = "#1c0e00"
-selection_foreground = "#e6d9db"
-selection_background = "#403e41"
+selection_foreground = "#1c0e00"
+selection_background = "#F4CC5D"
 
 color0 = "#72696a"
 color1 = "#fd6883"
@@ -11,7 +11,7 @@ color2 = "#DF782D"
 color3 = "#f9cc6c"
 color4 = "#66A891"
 color5 = "#a8a9eb"
-color6 = "#85dacc"
+color6 = "#BD4924" #85dacc #Omarchy Logo, terminal prompt
 color7 = "#e6d9db"
 color8 = "#948a8b"
 color9 = "#ff8297"

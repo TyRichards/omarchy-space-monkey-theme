@@ -1,7 +1,18 @@
-@define-color selected-text #E7AA5A; /* #0A0A08 */
-@define-color text #DF782D;
-@define-color base #1C0E00; /* #0A0A08 */
+@define-color selected-text #BD4924;
+@define-color text #e7aa5a;
+@define-color base #1C0E00; 
 @define-color border #A89984DE;
 @define-color foreground #DF782D;
 @define-color background #1C0E00;
 
+#box {
+  border-radius: 16px;
+  /* border: 1px solid lighter(@border); */ 
+  border-width: 2px;
+  overflow: hidden;
+}
+
+#search, .box-wrapper, #search, window, #outer-box {
+  border-radius: 16px;
+  border-width: 2px;
+}

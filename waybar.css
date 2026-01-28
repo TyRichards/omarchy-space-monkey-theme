@@ -10,8 +10,6 @@
 * {
   background-color: @background;
   color: @foreground;
-  font-family: JetBrainsMono Nerd Font Propo;
-  font-size: 12px;
   font-weight: bold;
 }
 
@@ -33,6 +31,14 @@
 #workspaces button.urgent {
     color: #BD4924;
     background-color: rgba(-1,0,0,0.0);
+}
+
+.modules-left {
+  margin-left: 28px;
+}
+
+.modules-right {
+  margin-right: 28px;
 }
 
 

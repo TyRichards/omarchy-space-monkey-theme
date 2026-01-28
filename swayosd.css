@@ -9,8 +9,9 @@ window.background,
 #osd,
 .osd,
 swayosd-window {
-    border-width: 2px;
-    border-radius: 10px;          /* Adjust this value: 12px–24px is nice and modern */
+    padding: 10px 20px;
+    border-width: 3px;
+    border-radius: 24px;          /* Adjust this value: 12px–24px is nice and modern */
     /* Optional: softer/more pill-like */
     /* border-radius: 999px; */   /* Fully pill-shaped if width/height allows */
 }

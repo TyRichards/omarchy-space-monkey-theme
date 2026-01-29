@@ -5,14 +5,53 @@
 @define-color foreground #DF782D;
 @define-color background #1C0E00;
 
-#box {
-  border-radius: 24px;
-  /* border: 1px solid lighter(@border); */ 
-  border-width: 3px;
-  overflow: hidden;
+/* #box { */
+/*   border-radius: 24px; */
+/*   /* border: 1px solid lighter(@border); */  */
+/*   border-width: 3px; */
+/*   overflow: hidden; */
+/* } */
+/**/
+/* #search, .box-wrapper, #search, window, #outer-box { */
+/*   border-radius: 24px; */
+/*   border-width: 3px; */
+/* } */
+
+/* New */
+
+window * {
+    font-size: 20px;
 }
 
-#search, .box-wrapper, #search, window, #outer-box {
-  border-radius: 24px;
-  border-width: 3px;
+window .normal-icons,
+window .large-icons,
+window .item-image,
+window .symbols {
+    -gtk-icon-size: 30px;
+    min-width: 0;
+    min-height: 0;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+window .box-wrapper {
+    background: @background;
+    border: 3px solid @border;
+    border-radius: 24px;
+    padding: 40px 40px 60px 40px;
+}
+
+window .search-container {
+  background: #291603;
+  border-radius: 10px;
+  padding: 18px 20px;
+  margin-bottom: 20px;
+}
+
+window .search-container text { }
+
+window .input {
+  background: transparent;
+  color: @text;
 }

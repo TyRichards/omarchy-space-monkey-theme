@@ -5,20 +5,6 @@
 @define-color foreground #DF782D;
 @define-color background #1C0E00;
 
-/* #box { */
-/*   border-radius: 24px; */
-/*   /* border: 1px solid lighter(@border); */  */
-/*   border-width: 3px; */
-/*   overflow: hidden; */
-/* } */
-/**/
-/* #search, .box-wrapper, #search, window, #outer-box { */
-/*   border-radius: 24px; */
-/*   border-width: 3px; */
-/* } */
-
-/* New */
-
 window * {
     font-size: 20px;
 }

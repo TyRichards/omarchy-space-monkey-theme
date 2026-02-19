@@ -6,6 +6,8 @@ return {
         filter = "ristretto",
         override = function()
           return {
+            Normal = { bg = "#1c0e00" },
+            NormalNC = { bg = "#1c0e00" },
             NonText = { fg = "#948a8b" },
             MiniIconsGrey = { fg = "#948a8b" },
 	    MiniIconsRed = { fg = "#fd6883" },

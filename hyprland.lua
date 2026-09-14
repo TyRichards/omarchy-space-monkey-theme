@@ -6,8 +6,8 @@ local inactive_border_color = "rgba(a8998480)"
 hl.config({
   general = {
     layout = "dwindle",
-    gaps_in = 10,
-    gaps_out = 20,
+    gaps_in = 8,
+    gaps_out = 18,
     border_size = 2,
     col = {
       active_border = active_border_color,

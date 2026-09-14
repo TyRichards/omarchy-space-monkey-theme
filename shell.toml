@@ -1,0 +1,159 @@
+# Space Monkey for Omarchy Quattro's Quickshell shell.
+#
+# OMARCHY 3 STYLE PORT MAP
+# ------------------------
+# [bar], [controls], and [tooltip] preserve waybar.css.
+# [notifications] preserves mako.ini.
+# [launcher] and [menu] preserve walker.css.
+# [popups] preserves swayosd.css.
+# [lock] extends the same palette to Quattro's lock screen (the old theme did
+# not contain a separate hyprlock.conf).
+
+# Ported from waybar.css: transparent bar, gold text, and rust active/urgent
+# states over the wallpaper.
+[bar]
+background = "#1c0e00"
+background-alpha = 0.0
+text = "#f4cc5d"
+active = "#bd4924"
+scale-with-font = true
+size-horizontal = 26
+size-vertical = 28
+
+[hyprland]
+active-border = "rgba(a89984de)"
+active-border-foreground = "#a89984"
+
+# Ported from Waybar's bold rust active state and Walker's dark-brown input.
+[controls]
+normal-color = "#291603"
+normal-fill-alpha = 1.0
+normal-border = "#a89984"
+normal-border-width = 1
+normal-border-alpha = 0.5
+hover-cursor-color = "#e7aa5a"
+hover-cursor-fill-alpha = 0.10
+hover-cursor-border = "#a89984"
+hover-cursor-border-width = 2
+hover-cursor-border-alpha = 0.8
+focus-color = "#bd4924"
+focus-fill-alpha = 0.12
+focus-border = "#a89984"
+focus-border-width = 3
+focus-border-alpha = 1.0
+selected-color = "#bd4924"
+selected-fill-alpha = 0.22
+selected-border = "#a89984"
+selected-border-width = 1
+selected-border-alpha = 0.8
+pressed-fill-alpha = 0.25
+selection-fill-alpha = 0.35
+
+[spacing]
+scale = 1.0
+scale-with-font = true
+
+# Mako used JetBrains Mono at 11px; Quattro owns the family globally.
+[font]
+base-size = 11
+
+# Ported from swayosd.css: deep-brown card, gold content, and a 3px warm-stone
+# frame. OSD progress uses the theme's rust accent.
+[popups]
+background = "#1c0e00"
+background-alpha = 1.0
+text = "#e7aa5a"
+border = "#a89984"
+border-alpha = 1.0
+border-width = 3
+
+# Ported from Waybar's warm foreground treatment.
+[tooltip]
+background = "#1c0e00"
+background-alpha = 0.97
+text = "#f4cc5d"
+border = "#a89984"
+border-alpha = 0.88
+border-width = 2
+
+# Ported from mako.ini: brown background, gold copy, 3px stone border, and the
+# original roomy notification silhouette.
+[notifications]
+background = "#1c0e00"
+background-alpha = 1.0
+text = "#e7aa5a"
+border = "#968773"
+border-alpha = 1.0
+border-width = 3
+countdown = "#bd4924"
+
+# Ported from walker.css: brown card, #291603 input surface, 3px stone border,
+# gold copy, rust selection, and large warm visual blocks over a dark scrim.
+[launcher]
+background = "#1c0e00"
+background-alpha = 1.0
+text = "#e7aa5a"
+border = "rgba(a89984de)"
+border-alpha = 1.0
+border-width = 3
+scrim = "#1c0e00"
+scrim-alpha = 0.75
+selected-background = "#bd4924"
+selected-background-alpha = 0.20
+selected-text = "#bd4924"
+selected-border = "#a89984"
+selected-border-alpha = 0.88
+selected-border-width = 2
+
+# Ported from Walker's install/app/theme menus; clipboard and emoji inherit it.
+[menu]
+background = "#1c0e00"
+background-alpha = 1.0
+text = "#e7aa5a"
+border = "rgba(a89984de)"
+border-alpha = 1.0
+border-width = 3
+scrim = "#1c0e00"
+scrim-alpha = 0.75
+selected-background = "#bd4924"
+selected-background-alpha = 0.20
+selected-text = "#bd4924"
+selected-border = "#a89984"
+selected-border-alpha = 0.88
+selected-border-width = 2
+
+[polkit]
+background = "#1c0e00"
+background-alpha = 1.0
+text = "#e7aa5a"
+text-error = "#fd6883"
+border = "rgba(a89984de)"
+border-error = "#fd6883"
+border-alpha = 1.0
+scrim = "#1c0e00"
+scrim-alpha = 0.75
+accent = "#bd4924"
+
+# Quattro lock styling derived from the Mako/Walker/SwayOSD port because the
+# Omarchy 3 Space Monkey repository shipped no dedicated Hyprlock palette.
+[lock]
+background = "#1c0e00"
+background-alpha = 0.90
+text = "#e7aa5a"
+placeholder = "#948a8b"
+text-error = "#fd6883"
+border = "rgba(a8998480)"
+border-active = "rgba(a89984de)"
+border-error = "#fd6883"
+border-alpha = 1.0
+selection = "#bd4924"
+selection-alpha = 0.45
+
+[image-picker]
+scrim = "#1c0e00"
+scrim-alpha = 0.75
+text = "#e7aa5a"
+selected-border = "#bd4924"
+selected-border-alpha = 1.0
+unselected-border = "#a89984"
+unselected-border-alpha = 0.50

@@ -18,7 +18,7 @@ The old Waybar, Mako, Walker, and SwayOSD configs were retired. Their equivalent
 
 ### Hyprland
 
-[`hyprland.lua`](hyprland.lua) preserves the 10/20px gaps, 3px warm-stone borders, 16px rounding, shadow/blur profile, full-opacity windows, and Space Monkey's custom sliding animations. The old `vibrancy = 80` setting was normalized to Quattro/Hyprland's current `0.0–1.0` scale as `0.8`.
+[`hyprland.lua`](hyprland.lua) preserves the 10/20px gaps with refined 1px warm-stone borders, 10px rounding shared by Hyprland and Quickshell, the shadow/blur profile, full-opacity windows, and Space Monkey's custom sliding animations. The old `vibrancy = 80` setting was normalized to Quattro/Hyprland's current `0.0–1.0` scale as `0.8`.
 
 Omarchy intentionally ignores executable Lua from a Git-cloned third-party theme. Normal installs still get the correct safe warm-stone borders from the palette; the complete compositor override is available when this repository is used as a trusted local theme.
 

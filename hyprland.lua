@@ -8,7 +8,7 @@ hl.config({
     layout = "dwindle",
     gaps_in = 10,
     gaps_out = 20,
-    border_size = 3,
+    border_size = 1,
     col = {
       active_border = active_border_color,
       inactive_border = inactive_border_color,
@@ -23,7 +23,7 @@ hl.config({
   },
 
   decoration = {
-    rounding = 16,
+    rounding = 10,
     dim_special = 0.0,
     shadow = {
       enabled = true,
